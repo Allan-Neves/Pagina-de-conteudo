@@ -22,7 +22,7 @@ Para executar o projeto, basta fazer o download ou clonar este repositório em s
 ## Estrutura do Projeto
 
 - `style.css`: Arquivo CSS que contém os estilos do site.
-- `imagens/`: Diretório onde se encontra `todas`as mídias utilizadas no projeto.
+- `images/`: Diretório onde se encontra `todas`as mídias utilizadas no projeto.
 - `index.html`: Arquivo príncipal do site.
 
 ## Licença
