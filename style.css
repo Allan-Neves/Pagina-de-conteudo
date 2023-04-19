@@ -1,85 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-body, html {
-    box-sizing: border-box;
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
     font-size: 62.5%;
-    color: #555;
+    overflow-x: hidden;
 }
 
-h1, h2 {
-    color: #111;
-}
-
-h2 {
-    font-size: 2.2rem;
-}
-
-a {
-    text-decoration: none;
-    color: #fd8a24;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
+p {
+    font-size: 1.6rem;
 }
 
 .top-bar {
     background-color: #333;
     color: white;
-    font-weight: bold;
-    font-size: 2.4rem;
+    padding: 10px;
     text-align: center;
-    padding: 8px;
     border-bottom: 5px solid #fd8a24;
 }
 
-.container {
+#container {
     max-width: 888px;
-    margin: auto;
-    padding: 30px;
+    margin: 20px auto;
+    padding: 23px;
 }
 
-.head-line {
+.header {
+    margin: 30px 0;
+}
+
+.header h1 {
     font-size: 5.6rem;
-    line-height: 64px;
+    margin-bottom: 30px;
 }
 
-.sub-title {
+.header h2{
     font-weight: normal;
     font-size: 2rem;
 }
 
 .author {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.3rem;
 }
 
 .date-time {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
-.social-icons {
-    margin-top: 10px;
-    border-bottom: 1px solid rgb(185, 184, 184);
+nav {
+    border-bottom: 1px solid rgba(161, 161, 161, 0.541);
+    margin-bottom: 30px;
 }
 
-.social-icons ul {
-    margin: 0;
-    padding: 0;
+.menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.social-icons ul li {
+.menu li {
     list-style: none;
-    display: inline;
+    display: inline-block;
+    margin-right: 30px;
 }
 
-.social-icon {
-    width: 20px;
-    padding: 10px 10px 10px 0px;
+.menu li img {
+    width: 30px;
 }
 
 .content {
@@ -87,33 +78,68 @@ a:hover {
     margin: auto;
 }
 
-p {
-    font-size: 2rem;
-    line-height: 32px;
+.content section p {
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 25px;
 }
 
-.cta {
-    font-size: 2rem;
-    margin: 30px 0;
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fd8a24;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 figure {
-    padding: 0;
-    margin: 40px 0;
-    font-size: 1.2rem;
+    margin: 30px 0;
 }
 
-figure > img {
+figure img {
     width: 100%;
 }
 
-.footer {
-    background-color: #333;
-    height: 100px;
+figcaption {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 20px 0;
 }
 
-.texto {
+aside {
+    font-size: 1.6rem;
+}
+
+.section-list ol {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.section-list ol li h2 {
+    padding-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.section-list ol li p {
+    font-weight: normal;
+}
+
+footer {
+    border-top: 5px solid #fd8a24;
+    background-color: #333;
+    height: 80px;
     color: white;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 360px) {
+    .header h1 {
+        font-size: 4rem;
+    }
 }
