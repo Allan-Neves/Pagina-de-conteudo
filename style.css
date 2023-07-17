@@ -97,8 +97,8 @@ h3 {
     margin-top: 25px;
 }
 
-.content p,
-a {
+.content p, a {
+    text-decoration: none;
     margin-bottom: 20px;
     line-height: 30px;
     font-size: 1.7rem;
@@ -112,7 +112,6 @@ a {
 
 span {
     color: #555;
-    text-decoration: none;
     font-size: 1.7rem;
     font-weight: 400;
 }
