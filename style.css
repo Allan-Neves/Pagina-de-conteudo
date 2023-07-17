@@ -121,14 +121,14 @@ figcaption {
     font-size: 1.2rem;
 }
 
-img {
+figure img {
     box-shadow: 0 0 40px #11111154;
     max-width: 100%;
     border-radius: 10px;
     transition: all 0.5s ease-in;
 }
 
-img:hover {
+figure img:hover {
     transform: scale(1.02);
 }
 
